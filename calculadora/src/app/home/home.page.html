@@ -1,0 +1,90 @@
+<ion-grid>
+  <ion-row>
+    <ion-col size="12" class="display">
+      {{ display }}
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="3">
+      <ion-button (click)="borrarNum()" size="large" expand="full">C</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button (click)="borrar()" size="large" expand="full">AC</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button (click)="(clickTecla('%'))" size="large" expand="full">%</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button (click)="(clickTecla('/'))" size="large" expand="full">/</ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="3">
+      <ion-button (click)="clickTecla('7')" size="large" expand="full">
+        7</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button size="large" expand="full" (click)="clickTecla('8')">
+        8</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button (click)="clickTecla('9')" size="large" expand="full">9</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button (click)="(clickTecla('*'))" size="large" expand="full">x</ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="3">
+      <ion-button (click)="clickTecla('4')" size="large" expand="full">
+        4</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button (click)="clickTecla('5')" size="large" expand="full">
+        5</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button (click)="clickTecla('6')" size="large" expand="full">
+        6</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button (click)="(clickTecla('-'))" size="large" expand="full">-</ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="3">
+      <ion-button (click)="clickTecla('1')" size="large" expand="full">
+        1</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button (click)="clickTecla('2')" size="large" expand="full">
+        2</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button (click)="clickTecla('3')" size="large" expand="full">
+        3</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button
+      (click)="(clickTecla('+'))"
+       size="large"
+        expand="full">
+        +</ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="3">
+      <ion-button (click)="signo()" size="large" expand="full">+/-</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button (click)="clickTecla('0')" size="large" expand="full">
+        0</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button (click)="clickTecla('.')" size="large" expand="full">.</ion-button>
+    </ion-col>
+    <ion-col size="3">
+      <ion-button (click)="solucion()" size="large" expand="full">=</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
