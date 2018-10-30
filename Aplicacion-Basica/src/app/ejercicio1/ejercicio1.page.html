@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button href="/home">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-title>Ejercicio 1</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-button color="primary" expand="full" (click)="muestra()">MUESTRA NOMBRE</ion-button>
+  <ion-button color="primary" expand="full" (click)="esconde()">LIMPIA PANTALLA</ion-button>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" class="display">
+        {{ display }}
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,1 +1,14 @@
-
+ion-grid {
+    width: 100%;
+    height: 100%;
+    background-color: var(--ion-color-primary-tint);
+    text-align: center;
+}
+ion-title {
+    font-size: 1.6em;
+    text-align: center;
+}
+ion-button {
+    font-size: 1em;
+    color: white;
+}
